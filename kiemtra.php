@@ -1,5 +1,5 @@
 <!-- C1: Array ( [0] => 1 [1] => 2 [2] => 3 [3] => 4 [4] => 5 [5] => 6 [6] => 9 )
-C2: B.TRUE
+C2: A.TRUE
 C3: A.array()
 C4: A.readfile()
 C5: B.Chuyển đổi một đoios tượng thành một chuỗi -->
