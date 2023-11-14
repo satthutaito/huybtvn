@@ -36,9 +36,9 @@ Viết hàm để tìm học sinh có điểm cao nhất (grade). -->
 
 // Tạo mảng kết hợp chứa thông tin học sinh
 $students = array(
-    array("id" => 1, "name" => "Nguyen Van A", "age" => 20, "grade" => 85),
-    array("id" => 2, "name" => "Tran Thi B", "age" => 21, "grade" => 92),
-    array("id" => 3, "name" => "Le Van C", "age" => 19, "grade" => 78),
+    array("id" => 1, "name" => "Nguyen Ngoc Huy", "age" => 20, "grade" => 100),
+    array("id" => 2, "name" => "Bui Thi Hong Hoa", "age" => 21, "grade" => 95),
+    array("id" => 3, "name" => "Than Quang Trung", "age" => 22, "grade" => 80),
 );
 
 echo "<br><br><br>-----Thông tin của tất cả học sinh:<br>";
@@ -57,7 +57,6 @@ function findHighestGradeStudent($students) {
             $hocsinh = $student;
         }
     }
-
     return $hocsinh;
 }
 
